@@ -3,7 +3,7 @@
     
       <span> {{getFullName()}} </span>
     <div>
-      This content is  in bootstrap's container
+      <h3>This content is  in bootstrap's container</h3>
     </div>
     
     <button type="button" class="btn btn-primary">Primary</button>
@@ -25,7 +25,33 @@
       <div class="alert-danger">นั่นอันตราย</div>
       <div class="alert-info">รายละเอียดของคุณ</div>
     </div>
-    
+    <div class="container text-center">
+      <div class="row">
+        <div class="col border"> auto size </div>
+        <div class="col border"> auto size </div>
+        <div class="col border"> auto size </div>
+      </div>
+      <div class="row">
+        <div class="col border"> auto size </div>
+        <div class="col-2 border"> 2/12 size </div>
+        <div class="col-6 border"> 6/12 size </div>
+      </div>  
+    <div class="card" style="width:18rem;" mt-3>
+        <img class="card-img-top"
+        src="https://cdn.pixabay.com/photo/2014/01/20/15/13/sheep-248632_1280.jpg"
+        alt="Card image cap"/>
+        <div class="card-body">
+            <p class="card-text">This is a sheep.</p>
+        </div>
+    </div> 
+      <div class="row d-block">
+        <div class="alert-success">ข้อความนี้แสดงทุกอุปกรณ์</div>
+      </div>  
+      <div class="row d-none d-md-block">
+        <div class="alert-danger">ข้อความนี้แสดงเฉพาะแท็บแล็ต</div>
+      </div>
+
+    </div>
   </div>
   
 
